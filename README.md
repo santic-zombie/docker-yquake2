@@ -8,7 +8,7 @@ $docker build . --tag yqake2
 
 How run:
 ```
-$docker run --name q2 -d --rm -v /home/santic/.q2pro_t:/home/quake2/.yq2 -p 27999:27910/udp q2image +set game ctf
+$docker run --name q2 -d --rm -v /home/santic/.q2pro_t:/home/quake2/.yq2 -p 27999:27910/udp yqake2 +set game ctf
 ```
 
 How to configure Docker in ArchLinux (Rootless mode):
